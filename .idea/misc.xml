@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dpmen/AndroidStudioProjects/FitTrain/app/src/main/res/drawable/ic_baseline_fitness_center_24.xml" value="0.128" />
         <entry key="..\:/Users/dpmen/AndroidStudioProjects/FitTrain/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/dpmen/AndroidStudioProjects/FitTrain/app/src/main/res/menu/menu_add_workout.xml" value="0.152" />
       </map>
     </option>
   </component>

@@ -3,6 +3,7 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.pm.fittrain.data.entities.workout
 
+@Dao
 interface workoutDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     fun addWorkout(workout: workout)
