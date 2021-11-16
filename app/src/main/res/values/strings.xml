@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">FitTrain</string>
+    <string name="app_name" translatable="false">FitTrain</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="workout">workout</string>
+    <string name="empty_workout_name">dfdfd</string>
+    <string name="workout_successfully_added">treino adicionado com sucesso</string>
 </resources>
