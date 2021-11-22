@@ -29,7 +29,6 @@ class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
         holder.itemView.lst_workoutMachines.text = currentItem.machines
 
 
-
         if(position%2 == 0){
             holder.itemView.rowLayout.setBackgroundColor(Color.parseColor("#d6d4e0"))
         }

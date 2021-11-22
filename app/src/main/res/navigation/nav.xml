@@ -31,7 +31,7 @@
     <fragment
         android:id="@+id/updateFragment"
         android:name="com.pm.fittrain.fragments.UpdateFragment"
-        android:label="UpdateFragment" >
+        android:label="@string/update" >
         <action
             android:id="@+id/action_updateFragment_to_listFragment"
             app:destination="@id/listFragment" />

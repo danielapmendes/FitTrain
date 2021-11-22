@@ -15,4 +15,5 @@
     <string name="question_delete">Tem a certeza?</string>
     <string name="workout_successfully_deleted">Treino apagado</string>
     <string name="new_workout">Novo Treino</string>
+    <string name="update">Atualizar</string>
 </resources>
