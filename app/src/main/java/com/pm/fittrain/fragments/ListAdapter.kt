@@ -30,10 +30,10 @@ class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
 
 
         if(position%2 == 0){
-            holder.itemView.rowLayout.setBackgroundColor(Color.parseColor("#d6d4e0"))
+            holder.itemView.rowLayout.setBackgroundColor(Color.parseColor("#2874A6"))
         }
         else {
-            holder.itemView.rowLayout.setBackgroundColor(Color.parseColor("#b8a9c9"))
+            holder.itemView.rowLayout.setBackgroundColor(Color.parseColor("#85C1E9"))
         }
 
         holder.itemView.rowLayout.setOnClickListener {
