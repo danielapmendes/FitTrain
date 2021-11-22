@@ -2,13 +2,16 @@ package com.pm.fittrain.data.database
 
 import android.content.Context
 import android.provider.ContactsContract
+import androidx.room.AutoMigration
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.pm.fittrain.data.dao.workoutDao
-import com.pm.fittrain.data.entities.workout
+import com.pm.fittrain.data.entities.Workout
 
-@Database(entities = [workout :: class], version = 1, exportSchema = false)
+@Database(entities = [Workout ::class], version = 2, exportSchema = true,
+    autoMigrations = [AutoMigration (from = 1, to = 2)])
+
 abstract class WorkoutsDatabase : RoomDatabase(){
     abstract fun workoutDao() : workoutDao
     companion object {

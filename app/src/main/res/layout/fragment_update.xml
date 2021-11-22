@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddFragment">
+    tools:context=".fragments.AddFragment">
 
     <LinearLayout
-        android:id="@+id/ll_main_layout_add_product"
+        android:id="@+id/ll_main_layout_update_product"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="left"
@@ -20,9 +20,22 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/workoutName"
+            android:id="@+id/updateWorkoutName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateWorkoutTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateWorkoutCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/updateWorkoutMachine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

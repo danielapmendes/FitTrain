@@ -2,4 +2,17 @@
 <resources>
     <string name="workout">Treino</string>
     <string name="empty_workout_name">fgffg</string>
+    <string name="workout_name">Nome</string>
+    <string name="workout_time">Tempo</string>
+    <string name="workout_successfully_added">Treino adicionado</string>
+    <string name="workout_calories">Calorias</string>
+    <string name="workout_machine">Máquinas Usadas</string>
+    <string name="add">Adicionar</string>
+    <string name="workout_successfully_updated">Treino atualizado</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="delete">Apagar</string>
+    <string name="question_delete">Tem a certeza?</string>
+    <string name="workout_successfully_deleted">Treino apagado</string>
+    <string name="new_workout">Novo Treino</string>
 </resources>

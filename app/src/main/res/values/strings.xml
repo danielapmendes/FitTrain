@@ -2,7 +2,19 @@
     <string name="app_name" translatable="false">FitTrain</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
-    <string name="workout">workout</string>
+    <string name="workout">Workout</string>
     <string name="empty_workout_name">dfdfd</string>
-    <string name="workout_successfully_added">treino adicionado com sucesso</string>
+    <string name="workout_successfully_added">Successfully Added</string>
+    <string name="workout_name">Name</string>
+    <string name="workout_time">Time</string>
+    <string name="workout_calories">Calories</string>
+    <string name="workout_machine">Machine Used</string>
+    <string name="add">Add</string>
+    <string name="workout_successfully_updated">Workout Updated</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete">Delete</string>
+    <string name="question_delete">Are you sure?</string>
+    <string name="workout_successfully_deleted">Workout Deleted</string>
+    <string name="new_workout">New Workout</string>
 </resources>

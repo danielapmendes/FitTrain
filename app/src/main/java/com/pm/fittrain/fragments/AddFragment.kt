@@ -1,12 +1,14 @@
-package com.pm.fittrain
+package com.pm.fittrain.fragments
 
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.*
 import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
-import com.pm.fittrain.data.entities.workout
+import com.pm.fittrain.R
+import com.pm.fittrain.data.entities.Workout
 import com.pm.fittrain.data.viewmodel.WorkoutViewModel
 import kotlinx.android.synthetic.main.fragment_add.*
 
@@ -22,6 +24,8 @@ class AddFragment : Fragment() {
         val view = inflater.inflate(R.layout.fragment_add, container, false)
 
         setHasOptionsMenu(true)
+
+        mWorkoutViewModel= ViewModelProvider(this).get(WorkoutViewModel::class.java)
 
         return view
     }
@@ -48,7 +52,10 @@ class AddFragment : Fragment() {
             ).show()
         }
 
-        val workout = workout(0, workoutName.text.toString())
+        val workout = Workout(0, workoutName.text.toString()
+            , workoutTime.text.toString(), workoutCalories.text.toString(),
+            workoutMachines.text.toString()
+        )
 
         mWorkoutViewModel.addWorkout(workout)
 

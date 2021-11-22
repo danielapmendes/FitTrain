@@ -2,20 +2,20 @@ package com.pm.fittrain.data.repository
 
 import androidx.lifecycle.LiveData
 import com.pm.fittrain.data.dao.workoutDao
-import com.pm.fittrain.data.entities.workout
+import com.pm.fittrain.data.entities.Workout
 
 class WorkoutRepository(private  val workoutDao: workoutDao) {
-    val readAllWorkouts : LiveData<List<workout>> = workoutDao.readAllWorkouts()
+    val readAllWorkouts : LiveData<List<Workout>> = workoutDao.readAllWorkouts()
 
-    suspend fun addWorkout(workout: workout){
+    suspend fun addWorkout(workout: Workout){
         workoutDao.addWorkout(workout)
     }
 
-    suspend fun updateWorkout(workout: workout) {
+    suspend fun updateWorkout(workout: Workout) {
         workoutDao.updateWorkout(workout)
     }
 
-    suspend fun deleteWorkout(workout: workout) {
+    suspend fun deleteWorkout(workout: Workout) {
         workoutDao.deleteWorkout(workout)
     }
 }

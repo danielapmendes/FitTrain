@@ -7,20 +7,37 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.pm.fittrain.ListFragment"
-        android:label="fragment_list"
+        android:name="com.pm.fittrain.fragments.ListFragment"
+        android:label="FitTrain"
         tools:layout="@layout/fragment_list" >
         <action
             android:id="@+id/action_listFragment_to_addFragment"
             app:destination="@id/addFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_updateFragment"
+            app:destination="@id/updateFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/addFragment"
-        android:name="com.pm.fittrain.AddFragment"
-        android:label="fragment_add"
+        android:name="com.pm.fittrain.fragments.AddFragment"
+        android:label="@string/new_workout"
         tools:layout="@layout/fragment_add" >
         <action
             android:id="@+id/action_addFragment_to_listFragment"
             app:destination="@id/listFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="com.pm.fittrain.fragments.UpdateFragment"
+        android:label="UpdateFragment" >
+        <action
+            android:id="@+id/action_updateFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <argument
+            android:name="currentWorkout"
+            app:argType="com.pm.fittrain.data.entities.Workout" />
+    </fragment>
+
 </navigation>
