@@ -6,7 +6,7 @@
     tools:context=".fragments.AddFragment">
 
     <LinearLayout
-        android:id="@+id/ll_main_layout_add_product"
+        android:id="@+id/ll_main_layout_update_product"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="left"
@@ -20,25 +20,21 @@
             android:textSize="25dp" />
 
         <EditText
-            android:id="@+id/workoutName"
+            android:id="@+id/updateWorkoutName"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/workout_name"/>
+            android:layout_height="wrap_content" />
         <EditText
-            android:id="@+id/workoutTime"
+            android:id="@+id/updateWorkoutTime"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/workout_time"/>
+            android:layout_height="wrap_content" />
         <EditText
-            android:id="@+id/workoutCalories"
+            android:id="@+id/updateWorkoutCalories"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/workout_calories"/>
+            android:layout_height="wrap_content" />
         <EditText
-            android:id="@+id/workoutMachines"
+            android:id="@+id/updateWorkoutMachine"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/workout_machine"/>
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
